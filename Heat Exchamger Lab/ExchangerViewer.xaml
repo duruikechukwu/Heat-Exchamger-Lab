@@ -1,0 +1,245 @@
+﻿<Window x:Class="Heat_Exchamger_Lab.ExchangerViewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HEAT EXCHANGER PROPERTIES" Height="680" Width="1050" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" ShowInTaskbar="False" Icon="Icons/ex.jpg">
+    <Grid Background="White" HorizontalAlignment="Center">
+        <StackPanel Height="610" VerticalAlignment="Top" Background="Transparent" Orientation="Horizontal">
+            <StackPanel Width="500">
+                <TextBlock Text="BASIC PROPERTIES" TextAlignment="Center" Padding="0,5" FontWeight="ExtraBold" Height="25" Background="LightGray"/>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Identifier" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtIdentifier" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Shell Diameter (Ds)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDs" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDsUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Tube Outer Diameter (Do)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDo" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDoUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Tube Inner Diameter (Di)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDi" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDiUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Tube Length (L)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtL" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtLUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Tube Pitch (PT)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtPT" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtPTUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Central Baffle Spacing (B)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtB" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtBUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Inlet Baffle Spacing (Bin)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtBin" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtBinUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Outlet Baffle Spacing (Bout)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtBout" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtBoutUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Number of Tube Passes (np)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtNp" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Number of tubes (nt)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtNt" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Baffle Cut (Bc)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtBc" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Number of Baffles (nb)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtNumberofBaffles" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Number of Sealing Strips (Nss)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtNss"  Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Ratio of Sealing Strips (rss)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtrss" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Tube Layout" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtTubeLayout"  Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                   
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="TEMA Type" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtTemaType" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <TextBlock Text="CLEARANCES AND BUNDLE DIAMETERS" TextAlignment="Center" Padding="0,5" FontWeight="ExtraBold" Height="25" Background="LightGray"/>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Tube-To-Baffle Clearance (Dtb)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDtb" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDtbUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Shell-To-Baffle Clearance (DSb)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDsb" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDsbUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Shell-To-Bundle Diametral Clearance" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDs_Dotl" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDs_DotlUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Outer Tube Limit Diameter (Dotl)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDotl" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDotlUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Central Tube Limit Diameter (Dctl)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDctl" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtDctlUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Width="500">
+                <TextBlock Text="FLOW AREAS" TextAlignment="Center" Padding="0,5" FontWeight="ExtraBold" Height="25" Background="LightGray"/>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Cross Flow Area (Sm)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtSm" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtSmUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Tube-To-Baffle Leakage Area (Stb)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtStb" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtStbUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Shell-To-Baffle Laekage Area (Ssb)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtSsb" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtSsbUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Shell-To-Bundle Bypass Area (Sb)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtSb" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtSbUnit" Height="25" Width="95" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Window Flow Area (Sw)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtSw" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtSwUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Heat Transfer Area (A)" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtA" Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtAUnit" Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+
+                <TextBlock Text="OTHER PARAMETERS" TextAlignment="Center" Padding="0,5" FontWeight="ExtraBold" Height="25" Background="LightGray"/>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Material of Construction" Height="25" Width="340" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtMaterial" Height="25" Width="160" TextAlignment="Left" Padding="0,5"/>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Fraction of Tubes in Cross Flow (Fc)" Height="25" Width="340" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtFc" Height="25" Width="160" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Fraction of Tubes in one Baffle Window (Fw)" Height="25" Width="340" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtFw" Height="25" Width="160" TextAlignment="Left" Padding="0,5"/>
+
+                </StackPanel>
+            
+
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Text="Number of Tube Rows Crossed Between Baffle Tips (Nc)" Height="25" Width="340" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtNc" Height="25" Width="160" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Text="Number of Tube Rows Crossed in One Baffle Window(Ncw)" Height="25" Width="340" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock x:Name="txtNcw" Height="25" Width="160" TextAlignment="Left" Padding="0,5"/>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="WhiteSmoke">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="25" Background="White">
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="200" TextAlignment="Left" Padding="0,5"/>
+                    <TextBlock Height="25" Width="100" TextAlignment="Left" Padding="0,5"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

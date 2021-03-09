@@ -1,0 +1,354 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Heat_Exchamger_Lab" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Heat_Exchamger_Lab.MainWindow"
+        Title="Heat Exchanger Lab" Height="768  " WindowState="Maximized" Width="1366" MinHeight="768" MinWidth="1366"   WindowStyle="SingleBorderWindow"  Background="Transparent" Icon="Icons/Graphicloads-100-Flat-Laboratory.ico">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="color1h" EndPoint="1,1" StartPoint="0.5,0.5">
+            <GradientStop Color="#FF761A1A" Offset="0.011"/>
+            <GradientStop Color="#FFFF8D8D" Offset="1"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="color2h" EndPoint="1,1" StartPoint="0.5,0.5">
+            <GradientStop Color="#FF761A1A" Offset="0.989"/>
+            <GradientStop Color="#FFFF8D8D"/>
+        </LinearGradientBrush>
+
+
+        <LinearGradientBrush x:Key="color1c" EndPoint="1,1" StartPoint="0.5,0.5">
+            <GradientStop Color="#FFABEBFD" Offset="0.004"/>
+            <GradientStop Color="#FF052A8D" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="color2c" EndPoint="1,1" StartPoint="0.5,0.5">
+            <GradientStop Color="#FFABEBFD" Offset="0.996"/>
+            <GradientStop Color="#FF052A8D"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="125" VerticalAlignment="Top" Width="1366">
+            <Menu Height="25">
+                <MenuItem Header="Laboratory" Width="120">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/if_beaker_lab_research_chemistry_3005772.png"/>
+                    </MenuItem.Icon>
+                    <MenuItem x:Name="menuNew" Height="25" Header="New Experiment" Click="menuNew_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/new.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuOpen" Height="25" Header="Open Experiment" Click="menuOpen_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/open.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuSave" Height="25" Header="Save Experiment" Click="menuSave_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/save.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuSaveAs" Height="25" Header="Save Experiment As" Click="menuSaveAs_Click_1"></MenuItem>
+                    <MenuItem x:Name="menuHelp" Height="25" Header="Help and Support" Click="menuHelp_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/Help-2-128.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuExit" Height="25" Header="Exit Laboratory" Click="menuExit_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/exit.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Design" Width="120">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/if_design_float_401411.png"/>
+                    </MenuItem.Icon>
+                    <MenuItem x:Name="menuDesignExchanger"  Height="25" Header="New Heat Exchanger" Click="menuDesignExchanger_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/he.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuDesignFluid" Height="25"  Header="New Fluid " Click="menuDesignFluid_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/fl.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuFittings" Height="25"  Header="Lab Fittings" Click="menuFittings_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/valve.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Tools" Width="120">
+                    <MenuItem.Icon>
+                        <Image Source="Icons/if_menu_309053.ico"/>
+                    </MenuItem.Icon>
+                    <MenuItem x:Name="menuitemCaseStudyVariables" Header="Case Study Variables" Height="25" Click="menuitemCaseStudyVariables_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/plot.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="menuItemPrefferedUnit" Height="25" Header="Preferred Units" Click="menuItemPrefferedUnit_Click_1">
+                        <MenuItem.Icon>
+                            <Image Source="Icons/ruler.jpg"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Operation Dynamics">
+                        <MenuItem x:Name="menuRealTime" Header="Real Time" Click="menuRealTime_Click_1"/>
+                        <MenuItem x:Name="menuSteadyState" Header="Steady State" Click="menuSteadyState_Click_1"/>
+                    </MenuItem>
+                    <MenuItem Header="Equipment Appearance">
+                        <MenuItem x:Name="menuEDefault" Header="Default" Click="menuEDefault_Click_1"/>
+                        <MenuItem x:Name="menuESteel" Header="Steel" Click="menuESteel_Click_1"/>
+                        <MenuItem x:Name="menuEcopper" Header="Copper" Click="menuEcopper_Click_1"/>
+                        <MenuItem x:Name="menuEDark" Header="Dark" Click="menuEDark_Click_1"/>
+                    </MenuItem>
+                    <MenuItem Header="Work Background">
+                        <MenuItem x:Name="menuWDefault" Header="Default" Click="menuWDefault_Click_1"/>
+                        <MenuItem x:Name="menuWWhite" Header="White" Click="menuWWhite_Click_1"/>
+                        <MenuItem x:Name="menuWDark" Header="Dark " Click="menuWDark_Click_1"/>
+                        <MenuItem x:Name="menuWSky" Header="Sky" Click="menuWSky_Click_1"/>
+                        <MenuItem x:Name="menuWCyan" Header="Cyan" Click="menuCyan_Click_1"/>
+                    </MenuItem>
+                </MenuItem>
+
+               
+            </Menu>
+            <ToolBar Height="25">
+
+                <Button x:Name="btnNew"  Height="25" Width="25" Margin="5,0,0,0" ToolTip="New Experiment" Click="menuNew_Click_1">
+                    <Image Source="Icons/new.jpg"/>
+                </Button>
+                <Button x:Name="btnOpen" Height="25"  Width="25" Margin="5,0,0,0" ToolTip="Open Experiment" Click="menuOpen_Click_1">
+                    <Image Source="Icons/open.jpg"/>
+                </Button>
+                <Button x:Name="btnSave" Height="25"  Width="25" Margin="5,0,0,0" ToolTip="Save Experiment" Click="menuSave_Click_1">
+                    <Image Source="Icons/save.jpg"/>
+                </Button>
+
+                <Button x:Name="btnResult" Content="RESULT" ToolTip="View Experiment Result" Height="25" Width="50" Margin="100,0,0,0" Click="btnResult_Click_1"/>
+                <Button x:Name="btnStore" Content="STORE" VerticalAlignment="Bottom" ToolTip="Open Material/Equipment Store" Click="btnStore_Click_1"/>
+                <Button x:Name="btnSwitchSides" Content="SWITCH SIDES" ToolTip="Switch Hot/Cold Tank Between Shell And Tube Sides" Margin="50,0,0,0" Click="btnSwitchSides_Click_1"/>
+                <Button x:Name="btnRecord" Content="RECORD" ToolTip="Record Run" Margin="10,0,0,0" Click="btnRecord_Click_1"/>
+                <Button x:Name="btnStudy" Content="CASE STUDY" ToolTip="Conduct CaseStudy" Margin="10,0,0,0" Click="btnStudy_Click_1"/>
+                <Button x:Name="btnStart" Content="START" Margin="10,0,0,0" ToolTip="Start/Stop Experiment "  Click="btnStart_Click_1" />
+                <TextBox x:Name="txtdynamics" Width="200" Height="20" Padding="1" Foreground="Brown" FontWeight="ExtraBold" Text="STEADY STATE " TextAlignment="Center" Margin="70,0,0,0" Background="WhiteSmoke" IsReadOnly="True" BorderBrush="Black" BorderThickness="1"/>
+                <TextBox x:Name="txbfilename" Width="300" Height="20" Padding="1" Foreground="BlueViolet" Margin="164,0,0,0" FontWeight="ExtraBold"  Background="WhiteSmoke" IsReadOnly="True" BorderBrush="Black" BorderThickness="1"/>
+            </ToolBar>
+            <StackPanel Height="75" Background="White" Orientation="Horizontal">
+                <GroupBox Header="TANK TEMPERATURE" Margin="10,0,0,0" FontWeight="Bold" BorderBrush="Black" Width="230">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Hot Tank" Width="83" Background="Black" Foreground="White" Padding="3" FontWeight="Bold"/>
+                            <TextBox x:Name="txtHFT" Width="80" TextAlignment="Left" TextWrapping="NoWrap"  Margin="2,0,0,0"  Text="390" Padding="3" Foreground="Blue" TextChanged="txtHFT_TextChanged_1"/>
+                            <ComboBox x:Name="cmbUnitOfHFTemp" SelectedIndex="0" Height="25" Width="53" >
+                                <ComboBoxItem Height="25" Content="C"/>
+                                <ComboBoxItem Height="25" Content="K"/>
+                                <ComboBoxItem Height="25" Content="F"/>
+                            </ComboBox>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Cold Tank" Background="Black" Foreground="White" Width="83" Padding="3" FontWeight="Bold"/>
+                            <TextBox x:Name="txtCFT" Width="80" TextAlignment="Left"  TextWrapping="NoWrap" Margin="2,0,0,0" Padding="3" Foreground="Blue" TextChanged="txtCFT_TextChanged_1"/>
+                            <ComboBox x:Name="cmbUnitOfCFTemp" SelectedIndex="0" Height="25" Width="53" >
+                                <ComboBoxItem Height="25" Content="C"/>
+                                <ComboBoxItem Height="25" Content="K"/>
+                                <ComboBoxItem Height="25" Content="F"/>
+                            </ComboBox>
+
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="FOULING FACTORS" Margin="10,0,0,0" FontWeight="Bold" BorderBrush="Black" Width="230">
+                    <StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Shell Side" Width="83" Background="Black" Foreground="White" Padding="3" FontWeight="Bold"/>
+                            <TextBox x:Name="txtShellFF" Width="129" TextAlignment="Left" TextWrapping="NoWrap"  Margin="2,0,0,0"  Padding="3" Foreground="Blue" TextChanged="txtShellFF_TextChanged_1"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Tube Side" Background="Black" Foreground="White" Width="83" Padding="3" FontWeight="Bold"/>
+                            <TextBox x:Name="txtTubeFF" Width="129" TextAlignment="Left"  TextWrapping="NoWrap" Margin="2,0,0,0" Padding="3" Foreground="Blue" TextChanged="txtShellFF_TextChanged_1"/>
+                         
+
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="SET FLOWRATE" Margin="10,0,0,0" FontWeight="Bold" BorderBrush="Black" Width="260">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Shell Side" Width="70" Background="Black" Foreground="White" Padding="3" FontWeight="Bold"/>
+                            <TextBox x:Name="txtShellFlow" Width="93" TextAlignment="Left" Margin="2,0,0,0"  Text="918.367" TextWrapping="NoWrap" Padding="3" Foreground="Blue" TextChanged="txtShellFlow_TextChanged_1"/>
+                            <ComboBox x:Name="cmbUnitOfShellVFlow" SelectedIndex="0" Height="25" Width="83">
+                                <ComboBoxItem Height="25" Content="L/s"/>
+                                <ComboBoxItem Height="25" Content="L/min"/>
+                                <ComboBoxItem Height="25" Content="L/hr"/>
+                                <ComboBoxItem Height="25" Content="m^3/s"/>
+                                <ComboBoxItem Height="25" Content="m^3/min"/>
+                                <ComboBoxItem Height="25" Content="m^3/hr"/>
+                                <ComboBoxItem Height="25" Content="ft^3/s"/>
+                                <ComboBoxItem Height="25" Content="ft^3/min"/>
+                                <ComboBoxItem Height="25" Content="ft^3/hr"/>
+                            </ComboBox>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Tube Side" Padding="3" Background="Black" Foreground="White" Width="70"  FontWeight="Bold"/>
+                            <TextBox x:Name="txtTubeFlow" Width="93" Text="2827.148" Margin="2,0,0,0"  TextAlignment="Left"  TextWrapping="NoWrap" Padding="3" Foreground="Blue" TextChanged="txtTubeFlow_TextChanged_1"/>
+                            <ComboBox x:Name="cmbUnitOfTubeVFlow" SelectedIndex="0" Height="25" Width="83">
+                                <ComboBoxItem Height="25" Content="L/s"/>
+                                <ComboBoxItem Height="25" Content="L/min"/>
+                                <ComboBoxItem Height="25" Content="L/hr"/>
+                                <ComboBoxItem Height="25" Content="m^3/s"/>
+                                <ComboBoxItem Height="25" Content="m^3/min"/>
+                                <ComboBoxItem Height="25" Content="m^3/hr"/>
+                                <ComboBoxItem Height="25" Content="ft^3/s"/>
+                                <ComboBoxItem Height="25" Content="ft^3/min"/>
+                                <ComboBoxItem Height="25" Content="ft^3/hr"/>
+                            </ComboBox>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="TIMER" Margin="5,0,0,0" FontWeight="Bold" BorderBrush="Black" Width="60">
+                    <StackPanel>
+                        <TextBox x:Name="txtTimer" IsReadOnly="True" TextAlignment="Left"  TextWrapping="NoWrap" Padding="3"/>
+                        <TextBlock x:Name="txtunitTime" TextAlignment="Center"  Height="20" Background="White" Padding="3" />
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="COMMENT BOX" Margin="10,0,0,0" FontWeight="Bold" BorderBrush="Black" Width="530">
+                    <StackPanel>
+                        <RichTextBox IsReadOnly="True" Height="40" Margin="0,10,0,0" FontFamily="Lucida Console" FontWeight="Bold">
+                            <FlowDocument>
+                                <Paragraph>
+                                    <Run x:Name="run1"/>
+                              
+                                    <Run x:Name="run2"/>
+     
+                                    <Run x:Name="run3"/>
+                             
+                                    <Run x:Name="run4"/>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        <!--<TextBlock Height="25" Text="Hot fluid tank: Content- Kerosene " FontFamily="OCR A Extended"/>-->
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+        </StackPanel>
+        <!--Equipment drawing starts here-->
+        <Border BorderThickness="1" BorderBrush="Black" Margin="0,125,0,0">
+            <Canvas x:Name="canBackground" Background="WhiteSmoke" Margin="-1,-1,-1,27">
+                <Rectangle x:Name="rect2" Fill="Gray" HorizontalAlignment="Left" Height="5" RadiusY="2" RadiusX="2" VerticalAlignment="Top" Width="290" Canvas.Top="29" Canvas.Left="-5"/>
+                <Rectangle x:Name="rect1" Fill="Gray" HorizontalAlignment="Left" Height="5" RadiusY="2" RadiusX="2" VerticalAlignment="Top" Width="80" Canvas.Top="78" Canvas.Left="-5"/>
+                <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="71" Margin="528,204,0,0" RadiusX="2" RadiusY="2" VerticalAlignment="Top" Width="5"/>
+                <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="5" Margin="337,204,0,0" RadiusY="2" RadiusX="2" VerticalAlignment="Top" Width="196"/>
+                <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="5" RadiusY="2" RadiusX="2" VerticalAlignment="Top" Width="426" Canvas.Left="1000" Canvas.Top="316"/>
+                <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="99" Margin="982,351,0,0" RadiusX="2" RadiusY="2" VerticalAlignment="Top" Width="5"/>
+
+
+                <!--standing1-->
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" Height="22" Margin="848,370,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="29.677"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" Height="22" Margin="889,381,0,0" Stroke="Black" VerticalAlignment="Top" Width="31"/>
+                <!--standing-->
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" Height="22" Margin="566,370,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="29.677"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" Height="22" Margin="607,381,0,0" Stroke="Black" VerticalAlignment="Top" Width="31"/>
+
+                <!--Heat exchanger structure design starts here-->
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" RadiusX="20" RadiusY="60" Height="120" Margin="920,261,0,0" Stroke="Black" VerticalAlignment="Top" Width="101"/>
+
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" RadiusX="20" RadiusY="60" Height="130" Margin="920,256,0,0" Stroke="Black" VerticalAlignment="Top" Width="54"/>
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" Height="130" Margin="920,256,0,0" RadiusY="60" RadiusX="20" Stroke="Black" VerticalAlignment="Top" Width="40" RenderTransformOrigin="-0.32,-0.745"/>
+
+                <Rectangle x:Name="rectExchanger" Fill="#FFFBFDFF" HorizontalAlignment="Left" RadiusX="20" RadiusY="60" Height="120" Margin="558,261,0,0" Stroke="Black" VerticalAlignment="Top" Width="393"/>
+
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" RadiusX="20" RadiusY="60" Height="130" Margin="537,256,0,0" Stroke="Black" VerticalAlignment="Top" Width="54"/>
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" Height="130" Margin="537,256,0,0" RadiusY="60" RadiusX="20" Stroke="Black" VerticalAlignment="Top" Width="40" RenderTransformOrigin="-0.32,-0.745"/>
+
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" RadiusX="20" RadiusY="60" Height="120" Margin="486,261,0,0" Stroke="Black" VerticalAlignment="Top" Width="83"/>
+                <Rectangle Fill="{Binding Fill, ElementName=rectExchanger}" HorizontalAlignment="Left" Height="120" Margin="486,261,0,0" RadiusY="60" RadiusX="20" Stroke="Black" VerticalAlignment="Top" Width="40" RenderTransformOrigin="-0.32,-0.745"/>
+
+                <!--Heat exchanger structure design ends here-->
+
+
+                <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="100" Margin="336,109,0,0" RadiusX="2" RadiusY="2" VerticalAlignment="Top" Width="5"/>
+                <Canvas x:Name="canShellSideTank" HorizontalAlignment="Left" Height="118" VerticalAlignment="Top" Width="100" Canvas.Left="265" Canvas.Top="3">
+                    <local:FluidTank x:Name="TankHottank" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="160" Width="150" />
+                </Canvas>
+                <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="5" Margin="141,316,0,0" RadiusY="2" RadiusX="2" VerticalAlignment="Top" Width="372"/>
+                <!--<Rectangle Fill="Gray" HorizontalAlignment="Left" Height="5" Margin="141,536,0,0" RadiusY="2" RadiusX="2" VerticalAlignment="Top" Width="182"/>-->
+                <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="170" Margin="140,151,0,0" RadiusX="2" RadiusY="2" VerticalAlignment="Top" Width="5"/>
+                <Canvas x:Name="canTubeideTank" HorizontalAlignment="Left" Height="128" Margin="72,53,0,0" VerticalAlignment="Top" Width="100">
+                    <local:FluidTank x:Name="TankcoldTank" HorizontalAlignment="Left" VerticalAlignment="Top" Height="160" Width="150"/>
+                </Canvas>
+                <Rectangle Fill="Gray" HorizontalAlignment="Left" Height="5" Margin="982,445,-76,0" RadiusY="2" RadiusX="2" VerticalAlignment="Top" Width="450"/>
+                <!--valve design structure starts here-->
+                <Rectangle x:Name="rectShellValve2" Fill="Maroon" HorizontalAlignment="Left" Height="5" Margin="515,199,0,0" VerticalAlignment="Top" Width="2"/>
+                <Rectangle x:Name="rectTubeValve2" Fill="Maroon"  HorizontalAlignment="Left" Height="5" Margin="475,312,0,0" VerticalAlignment="Top" Width="2"/>
+                <Rectangle x:Name="rectShellValve1" Fill="Maroon" HorizontalAlignment="Left" Height="2" Margin="512,199,0,0"  VerticalAlignment="Top" Width="8"/>
+                <Rectangle x:Name="rectTubeValve1" Fill="Maroon" HorizontalAlignment="Left" Height="2" Margin="472,310,0,0"  VerticalAlignment="Top" Width="8"/>
+                <!--valve design structure ends here-->
+                <Polyline Points="533,220 550,220" Stroke="Black" StrokeThickness="2" />
+                <Polyline Points="1050,316 1050,300" Stroke="Black" StrokeThickness="2" />
+                <Polyline Points="450,321 450,330" Stroke="Black" StrokeThickness="2" />
+                <Polyline Points="963,430 972,430" Stroke="Black" StrokeThickness="2" Margin="10,0,-10,0" />
+
+                <Border BorderBrush="Black" Background="White" Height="25" BorderThickness="1" HorizontalAlignment="Left"  Margin="377,326,0,0" VerticalAlignment="Top" Width="100">
+                    <StackPanel Background="Transparent" Orientation="Horizontal">
+                        <Label Content="T2" Background="Black" Foreground="White" Width="25" Padding="2" />
+                        <TextBox x:Name="txtT2" Width="50" FontWeight="Bold" IsReadOnly="True" TextAlignment="Left" TextWrapping="NoWrap" Padding="1" />
+                        <Label x:Name="lblT2Unit" Width="20"  Padding="3" />
+                    </StackPanel>
+                </Border>
+                <Border BorderBrush="Black" Background="White" Height="25" BorderThickness="1" HorizontalAlignment="Left"  Margin="874,418,0,0" VerticalAlignment="Top" Width="100">
+                    <StackPanel Background="Transparent" Orientation="Horizontal">
+                        <Label Content="T4" Background="Black" Foreground="White" Width="25" Padding="2" />
+                        <TextBox x:Name="txtT4" Width="50" IsReadOnly="True" FontWeight="Bold" TextAlignment="Left" TextWrapping="NoWrap" Padding="1" />
+                        <Label x:Name="lblT4Unit"  Width="20"  Padding="3" />
+                    </StackPanel>
+                </Border>
+                <Border BorderBrush="Black" Background="White" Height="25"  BorderThickness="1" HorizontalAlignment="Left"  Margin="543,206,0,0" VerticalAlignment="Top" Width="100">
+                    <StackPanel Background="Transparent" Orientation="Horizontal"  HorizontalAlignment="Right" Width="98">
+                        <Label Content="T1" Background="Black" Foreground="White" Width="25" Padding="2" />
+                        <TextBox x:Name="txtT1" Width="50" IsReadOnly="True" TextAlignment="Left" FontWeight="Bold" TextWrapping="NoWrap" Padding="1" />
+                        <Label x:Name="lblT1Unit"  Width="20"  Padding="3" />
+                    </StackPanel>
+                </Border>
+                <Border BorderBrush="Black" Background="White" Height="25" BorderThickness="1" HorizontalAlignment="Left"  Margin="1042,284,0,0" VerticalAlignment="Top" Width="100">
+                    <StackPanel Background="Transparent" Orientation="Horizontal" HorizontalAlignment="Right" Width="98">
+                        <Label Content="T3" Background="Black" Foreground="White" Width="25" Padding="2" />
+                        <TextBox x:Name="txtT3" Width="50" IsReadOnly="True" FontWeight="Bold" TextAlignment="Left" TextWrapping="NoWrap" Padding="1" />
+                        <Label x:Name="lblT3Unit"  Width="20"  Padding="3" />
+                    </StackPanel>
+                </Border>
+                <Canvas x:Name="cansub" Height="100" Canvas.Left="-17" Canvas.Top="14" Width="296">
+                    <Ellipse Fill="{DynamicResource color1h}" HorizontalAlignment="Left" Height="5" VerticalAlignment="Top" Width="5" Canvas.Top="15" Canvas.Left="277"/>
+                </Canvas>
+                <Canvas x:Name="canmain"  Height="327" Canvas.Left="131" Canvas.Top="151" Width="1252"/>
+                <!--<Rectangle x:Name="rectT3" HorizontalAlignment="Left" Height="220" Fill="{DynamicResource color2c}" Margin="324,318,0,0"  VerticalAlignment="Top" Width="1"/>-->
+                <!--<Rectangle x:Name="rectT2"  Fill="{DynamicResource color2c}" HorizontalAlignment="Left" Height="1" Margin="142,538,0,0"  VerticalAlignment="Top" Width="183"/>-->
+
+
+
+            </Canvas>
+        </Border>
+        <!--Equipment drawing ends here-->
+    </Grid>
+</Window>

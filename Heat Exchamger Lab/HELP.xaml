@@ -1,0 +1,77 @@
+﻿<Window x:Class="Heat_Exchamger_Lab.HELP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ABOUT THIS APPLICATION" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ResizeMode="CanMinimize" ShowInTaskbar="False"  Height="720" Width="1050" Icon="Icons/Graphicloads-100-Flat-Laboratory.ico">
+    <Grid>
+        <RichTextBox  x:Name="richTextBox" HorizontalAlignment="Left" Height="720" IsReadOnly="True" IsDocumentEnabled="True"  VerticalAlignment="Top" Width="1044" Background="Black" Margin="103,-11,-103,-18" >
+            <FlowDocument>
+                <Paragraph>
+                    <Figure Width="130">
+                        <BlockUIContainer>
+                            <Image Source="Icons/Graphicloads-100-Flat-Laboratory.ico" Width="100"/>
+                        </BlockUIContainer>
+                       
+                    </Figure>
+                </Paragraph>
+                <Paragraph FontSize="20" FontWeight="Bold" Foreground="#FFD87474" FontFamily="Wide Latin" >Welcome to Virtual Shell and Tube Heat Exchanger Lab</Paragraph>
+                <Paragraph>
+                    <InlineUIContainer>
+                        <Rectangle Width="780" Height="2" Fill="#FFD87474"/>
+                    </InlineUIContainer>
+                </Paragraph>
+                <Section LineHeight="2" Foreground="#FFDC7373" Background="Black">
+                    <Paragraph FontSize="15" Foreground="White">INTRODUCTION</Paragraph>
+                    <Paragraph FontSize="12">         
+                            This application is for the simulation of shell-and-tube heat exchanger experiments. It requires you to supply details of the:      
+                    </Paragraph>
+                    <List>
+                        <ListItem>
+                            <Paragraph>Inlet temperatures of shell-side and tube-side fluids</Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>Volumetric flow rates of shell-side and tube-side fluids</Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>Fouling factors of shell-side and tube-side</Paragraph>
+                        </ListItem>
+                    </List>
+                    <Paragraph> You must ensure that the inlet temperatures supplied for each of the fluids are withing single phase regions.
+                        This is because the mathemematical models used in developing this software cannot predict phase changes. 
+                        In addition to these inputs, you should select heat exchangers and fluids respectively from any of the existing heat exchangers and fluids in the laboratory, to be used for the siimulation. 
+                        You  can also define new heat exchangers and fluids respectively through the heat exchanger design and fluid view windows.</Paragraph>
+                 
+                    <Paragraph>During simulation of experiments, you can record results for each run by clicking RECORD. to view recorded results, click RESULTS. Preffered units of measurement can be changed by clicking TOOLS-PREFFERED UNITS, selecting the desired unit and clicking OK.</Paragraph>
+                    <Paragraph>Case study graphs can be plotted to view how changes in any of the variables supplied by the user (Independent Variables) can affect values of other variables calculated by the software (Dependent Variables).</Paragraph>
+                    <Paragraph FontSize="15" Foreground="White">CREATING NEW FLUIDS AND HEAT EXCHANGERS</Paragraph>
+                    <Paragraph>To create a new fluid, click DESIGN- NEW FLUID; supply data of the specific heat capacity (Cp), Thermal conductivity (K), Desity(p) and Viscosity (u) of the fluid at different temperatures. You must specify these data at atleast 2 different tempreratures and at most 15 differrent temperatures. Additionally,
+                        you must give the fluid a name and specify its boiling and melting points (if liquid) or boiling point (if gas). </Paragraph>
+                    <Paragraph> To design new heat exchanger, click DESIGN- NEW HEAT EXCHNAGER; supply all the data required in the open window and click OK.</Paragraph>
+                    <Paragraph>In doing these, please ensure that no exchanger or fluid with name similar to the specified name is already in existence as this would not allow the successful completion of the task. Also ensure that all values entered for variables used in calculations are numbers and are logical.
+                        Consult Heat Exchanger design handbooks for guidance on how to make initial estimates of variables.</Paragraph>
+
+                    <Paragraph FontSize="15" Foreground="White">PLOTTING CASE STUDY GRAPHS</Paragraph>
+                    <Paragraph>You can change the dependent and independent variables to be studied by clicking TOOLS- CASE STUDY VARIABLES; you can also change the units of the values that will appear in the graph in TOOLS- PREFFERED UNITS. To conduct the case study,  click CASE STUDY; input start value, end value and step for the independent variable.
+                        Select the experiment run to study its variable. Click GENERATE POINTS to view the coordinates that would be plotted. Click VIEW GRAPH to 
+                        view the plotted graph. Note that  'step' is the value by which the initial value will continously be increased to get the next value of the independent variable until the final value is reached. If the Inital value, final value or step provided is not logical, no points willl be generated.</Paragraph>
+                    <Paragraph FontSize="15" Foreground="White">SUPPORT</Paragraph>
+                    <Paragraph>Thank you for buying into the idea of the possibilty of changing the world of Engineering Education through the implementation of  Virtual Laboratory technology. For Questions, Observations, Comments and/or Suggestions, please contact the developer of this application by clicking the link below:</Paragraph>
+                    <Paragraph>
+                        
+                        <Hyperlink NavigateUri="http://www.facebook.com/duru.ikechukwu.37">
+                            Contact DURU IKECHUKWU via FACEBOOK
+                        </Hyperlink>
+                    </Paragraph>
+                    <Paragraph FontSize="10" Foreground="White" >
+                        <Run Text="Duru Ikechukwu is a graduate of Chemical Engineering from University of Uyo Nigeria. This Software was part of his final year undergraduate research project in the university and was suprvised by"/>
+                        <Hyperlink NavigateUri="http://www.facebook.com/Oseribo_oboh">
+                            Engr.Dr. I.O. Oboh
+                        </Hyperlink>
+                    </Paragraph>
+                    <Paragraph Foreground="White" FontWeight="Bold">(C) DURU IKECHUKWU (2018)</Paragraph>
+                </Section>
+           
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

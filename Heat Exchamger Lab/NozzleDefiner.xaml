@@ -1,0 +1,54 @@
+﻿<Window x:Class="Heat_Exchamger_Lab.NozzleDefiner"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LABORATORY TECHNICAL SPECIFICATIONS" Height="230" Width="410" ResizeMode="CanMinimize"  ShowInTaskbar="False" Icon="Icons/valve.jpg">
+    <StackPanel>
+        <StackPanel Height="25" Orientation="Horizontal"  Margin="0,3,0,0"  HorizontalAlignment="Center" >
+            <Label Width="150" Padding="3" Content="Shell Inlet Nozzle Diameter" />
+            <TextBox x:Name="txtShellNozzle" Width="180" Padding="0,2" TextWrapping="NoWrap" BorderBrush="Black"  />
+            <ComboBox x:Name="cmbshellNozzle"  Width="50" Padding="3" SelectedIndex="0">
+                <ComboBoxItem Height="25" Content="m"/>
+                <ComboBoxItem Height="25" Content="ft"/>
+                <ComboBoxItem Height="25" Content="mm"/>
+                <ComboBoxItem Height="25" Content="in"/>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Height="25" Orientation="Horizontal" Margin="0,3,0,10" HorizontalAlignment="Center" >
+            <Label Width="150" Padding="3" Content="Tube Inlet Nozzle Diameter" />
+            <TextBox x:Name="txtTubeNozzle" Width="180" Padding="0,2" TextWrapping="NoWrap" BorderBrush="Black"  />
+            <ComboBox x:Name="cmbstubeNozzle"  Width="50" Padding="3" SelectedIndex="0">
+                <ComboBoxItem Height="25" Content="m"/>
+                <ComboBoxItem Height="25" Content="ft"/>
+                <ComboBoxItem Height="25" Content="mm"/>
+                <ComboBoxItem Height="25" Content="in"/>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Height="25" Orientation="Horizontal" Margin="0,3,0,10" HorizontalAlignment="Center" >
+            <Label Width="150" Padding="3" Content="Tank Volume" />
+            <TextBox x:Name="txthHeaterVolume" Width="180" Padding="0,2" TextWrapping="NoWrap" BorderBrush="Black"  />
+            <ComboBox x:Name="cmbHeaterVolume" Width="50" Padding="3" SelectedIndex="0">
+                <ComboBoxItem Height="25" Content="L"/>
+                <ComboBoxItem Height="25" Content="m^3"/>
+                <ComboBoxItem Height="25" Content="ft^3"/>
+            </ComboBox>
+        </StackPanel>
+        <StackPanel Height="25" Orientation="Horizontal" Margin="0,3,0,10" HorizontalAlignment="Center" >
+            <Label Width="150" Padding="3" Content="Heater Power" />
+            <TextBox x:Name="txtHeaterPower" Width="180" Padding="0,2" TextWrapping="NoWrap" BorderBrush="Black"  />
+            <ComboBox x:Name="cmbHeaterpowerunit"  Width="50" Padding="3" SelectedIndex="0">
+                <ComboBoxItem Height="25" Content="Btu/s"/>
+                <ComboBoxItem Height="25" Content="Btu/min"/>
+                <ComboBoxItem Height="25" Content="Btu/hr"/>
+                <ComboBoxItem Height="25" Content="KJ/s"/>
+                <ComboBoxItem Height="25" Content="KJ/min"/>
+                <ComboBoxItem Height="25" Content="KJ/hr"/>
+                <ComboBoxItem Height="25" Content="Kcal/s"/>
+                <ComboBoxItem Height="25" Content="Kcal/min"/>
+                <ComboBoxItem Height="25" Content="Kcal/hr"/>
+            </ComboBox>
+        </StackPanel>
+        <Button x:Name="btnOk" Height="25"  Content="Ok"  Click="btnOk_Click_1"/>
+    </StackPanel>
+</Window>

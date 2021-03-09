@@ -1,0 +1,172 @@
+c:\users\user\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe.config
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.pdb
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\MainWindow.baml
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\MainWindow.g.cs
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\App.g.cs
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_MarkupCompile.cache
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.g.resources
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat_Exchamger_Lab.Properties.Resources.resources
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csproj.GenerateResource.Cache
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.exe
+C:\Users\USER\documents\visual studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidTank.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidTank.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_MarkupCompile.lref
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerDesigner.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerDesigner.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\UnitManager.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\UnitManager.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerViewer.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerViewer.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Store.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Store.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidData.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidDefiner.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidData.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidDefiner.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidViewer.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidViewer.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\NozzleDefiner.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\NozzleDefiner.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ResultWindow.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ResultWindow.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudy.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudy.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudyWinow.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudyWinow.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\LineGraph.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\LineGraph.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Splash.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Splash.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\HELP.baml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\HELP.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe.manifest
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.application
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.TrustInfo.xml
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.exe.manifest
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.application
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\ES101FILE
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_Content.g.cs
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101.mdf
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\System.Data.SQLite.dll
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\System.Data.SQLite.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101.db
+C:\Users\USER\Documents\Visual Studio 2012\Projects\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101_log.ldf
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudy.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudyWinow.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerDesigner.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerViewer.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidData.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidTank.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidViewer.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\HELP.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\LineGraph.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\NozzleDefiner.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ResultWindow.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Splash.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Store.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\UnitManager.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudy.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudyWinow.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerDesigner.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerViewer.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidData.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidDefiner.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidTank.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidViewer.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\HELP.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\LineGraph.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\NozzleDefiner.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ResultWindow.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Splash.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Store.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\UnitManager.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_Content.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_MarkupCompile.cache
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_MarkupCompile.lref
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.exe
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.pdb
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\ES101FILE
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101.db
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101_log.ldf
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101.mdf
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe.config
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe.manifest
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.application
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.pdb
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\System.Data.SQLite.pdb
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidDefiner.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.g.resources
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat_Exchamger_Lab.Properties.Resources.resources
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.TrustInfo.xml
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.exe.manifest
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.application
+C:\Users\hp\Desktop\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csproj.CopyComplete
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\ES101FILE
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101.db
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101_log.ldf
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\res\FLUI101.mdf
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe.config
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe.manifest
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.application
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.exe
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\Heat Exchamger Lab.pdb
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\bin\Debug\System.Data.SQLite.pdb
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudy.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudyWinow.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerDesigner.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerViewer.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidData.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidTank.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidViewer.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\HELP.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\LineGraph.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\NozzleDefiner.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ResultWindow.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Splash.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Store.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\UnitManager.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudy.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\CaseStudyWinow.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerDesigner.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ExchangerViewer.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidData.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidDefiner.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidTank.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidViewer.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\HELP.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\LineGraph.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\NozzleDefiner.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\ResultWindow.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Splash.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Store.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\UnitManager.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_Content.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_MarkupCompile.cache
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab_MarkupCompile.lref
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\FluidDefiner.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.g.resources
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat_Exchamger_Lab.Properties.Resources.resources
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.TrustInfo.xml
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.exe.manifest
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.application
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.csproj.CopyComplete
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.exe
+C:\Users\hp\Desktop\Projects\Heat Exchamger Lab\Heat Exchamger Lab\Heat Exchamger Lab\obj\Debug\Heat Exchamger Lab.pdb

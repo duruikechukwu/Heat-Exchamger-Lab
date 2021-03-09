@@ -1,0 +1,41 @@
+﻿<Window x:Class="Heat_Exchamger_Lab.CaseStudy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          Title="CASE STUDY VARIABLES" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ResizeMode="CanMinimize" ShowInTaskbar="False" Height="150" Width="425" Icon="Icons/plot.jpg">
+    <StackPanel Background="LightGray">
+        <StackPanel Height="50" Orientation="Horizontal" VerticalAlignment="Top">
+            <StackPanel Width="180">
+
+                <TextBlock Text="Choose Independent Variable" Height="25" FontWeight="Bold" Padding="3" Background="LightGray"/>
+                <TextBlock Text="Choose Dependent Variable" Height="25" FontWeight="Bold" Padding="3" Background="LightGray"/>
+            </StackPanel>
+            <StackPanel Width="230" >
+
+                <ComboBox x:Name="CmbIndependentVar" Height="25" SelectedIndex="0">
+                    <ComboBoxItem Height="25" Padding="3" Content="Shell-side Volumetric Flow" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Tube-side Volumetric Flow" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Shell-side Inlet Temperature" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Tube-side Inlet Temperature" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Shell-side Fouling Factor" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Tube-side Fouling Factor" />
+                </ComboBox>
+                <ComboBox x:Name="CmbDependentVar" Height="25" SelectedIndex="0">
+                    <ComboBoxItem Height="25" Padding="3" Content="Overall Heat Transfer Coefficient" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Shell-side Heat Transfer Coefficient" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Tube-side Heat Transfer Coefficient" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Shell-side Reynolds Number" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Tube-side Reynolds Number" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Shell-side Pressure Drop" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Tube-side Pressure Drop" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Shell-side Mass Flow Rate" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Tube-side Mass Flow Rate" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Shell-side Outlet Temperature" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Tube-side Outlet Temperature" />
+                    <ComboBoxItem Height="25" Padding="3" Content="Rate of heat transfer" />
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+        <Button x:Name="btnok" Height="25" Margin="0,30" Content="OK" Click="btnok_Click_1"/>
+    </StackPanel>
+
+</Window>

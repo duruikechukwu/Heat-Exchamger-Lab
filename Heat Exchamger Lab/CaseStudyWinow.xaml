@@ -1,0 +1,45 @@
+﻿<Window x:Class="Heat_Exchamger_Lab.CaseStudyWinow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Title="CASE STUDY" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ResizeMode="CanMinimize" ShowInTaskbar="False" Height="355" Width="550" Icon="Icons/plot.jpg">
+    <StackPanel>
+        <DataGrid x:Name="datalog" IsReadOnly="True" Height="80">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="ColumnIndependent" Binding="{Binding X}" ClipboardContentBinding="{x:Null}" Width="0.5*" Header="Independent Variable (X)" />
+                <DataGridTextColumn x:Name="ColumnDependent" Binding="{Binding Y}" ClipboardContentBinding="{x:Null}" Width="0.5*" Header="Dependent Variable (Y)" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Height="25" Orientation="Horizontal">
+            <TextBlock Padding="3" Text="RUN TO STUDY" Width="200"/>
+            <ComboBox x:Name="cmbrun" Width="330"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Height="25">
+            <TextBlock Padding="3" Text="INDEPENDENT VARIABLE   (X)" Width="200"/>
+            <TextBlock x:Name="txtindependent" Padding="3" Width="210"/>
+            <TextBlock x:Name="txtindepunit" Padding="3" Width="120"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Height="25">
+            <TextBlock Padding="3" Text="DEPENDENT VARIABLE       (Y)" Width="200"/>
+            <TextBlock x:Name="txtdependent" Padding="3" Width="210"/>
+            <TextBlock x:Name="txtdepunit" Padding="3"  Width="120"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Height="25">
+            <TextBlock Padding="3" Text="START POINT" Width="200"/>
+            <TextBox x:Name="txtstart" Padding="3" Width="330" TextChanged="txtstart_TextChanged_1"/>
+           
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Height="25">
+            <TextBlock Padding="3" Text="END POINT" Width="200"/>
+            <TextBox x:Name="txtend" Padding="3" Width="330" TextChanged="txtstart_TextChanged_1"/>
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Height="25">
+            <TextBlock Padding="3" Text="STEP" Width="200"/>
+            <TextBox x:Name="txtstep" Padding="3" Width="330" TextChanged="txtstart_TextChanged_1"/>
+       
+        </StackPanel>
+        <Button x:Name="btnGo" Margin="0,10,0,0" Content="GENERATE POINTS" Click="btnGo_Click_1"/>
+        <Button x:Name="btnView" Margin="0,2" Content="SHOW PLOT" Click="btnView_Click_1"/>
+        <TextBlock x:Name="txtstatus" Height="20" Foreground="Black" Text="Ready" TextAlignment="Center" Background="LightGray" FontWeight="Bold" />
+    </StackPanel>
+</Window>
